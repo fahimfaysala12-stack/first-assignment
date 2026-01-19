@@ -156,12 +156,13 @@ nav .menu a{
 #notes p{
     font-size:16px;
     line-height:20px;
+    color: #627382;
 }
 .cards {
     display:flex;
     width:85%;
     max-width:1360px;
-    margin:auto;
+    margin:120px;
     gap:24px;
     
 }
@@ -191,3 +192,86 @@ nav .menu a{
 .card-child p{
     font-size:16px;
 }
+.second-brain{
+    display:flex;
+    max-width:1360px;
+    margin:120px;
+}
+.second-brain .img{
+    width:600px;
+    height:600px;
+}
+.solution{
+    margin:102px 0px 102px 60px;
+    display:flex;
+    gap:40px;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.solution p{
+    font-size:16px;
+    color:#627382;
+}
+.solution img{
+    
+    padding-top:4px;
+    width:20px;
+    height:20px;
+    
+    
+}
+.solution ul{
+    list-style:none;
+    
+    
+    
+    margin-top:40px;
+    
+}
+.solution ul li{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:6px;
+    font-size:16px;
+        max-width:700px;
+
+}
+.challenge-part{
+    max-width:1360px;
+    padding:80px 40px;
+    margin:2px 120px 120px 120px;
+}
+.challenge{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.challenge h2{ 
+    font-size:40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.challenge p{
+    font-size:16px;
+    color:#627382;
+    text-align: center;
+}
+
+    .challenge-part ul{
+        margin:0 auto;
+        display:flex;
+        gap:20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color:#627382
+
+    }
+
+
