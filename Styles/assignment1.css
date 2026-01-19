@@ -242,6 +242,7 @@ nav .menu a{
     max-width:1360px;
     padding:80px 40px;
     margin:2px 120px 120px 120px;
+    background-color: #f7f6f2;
 }
 .challenge{
     
@@ -250,6 +251,10 @@ nav .menu a{
     justify-content: center;
     align-items: center;
     
+}
+.challenge button{
+    margin-top:24px;
+    margin-bottom:16px;
 }
 .challenge h2{ 
     font-size:40px;
@@ -273,5 +278,30 @@ nav .menu a{
         color:#627382
 
     }
-
-
+    .footer-contents{
+        padding:120px 120px 30px 120px;
+        background-color:#001931;
+        color:#ffffff;
+    }
+    .footer img{
+        width:139px;
+        height: 60px;
+    }
+.footer-main{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.social{
+    display: flex;
+    gap:16px;
+    margin-right: 10%;
+    
+}
+#text-top{
+    margin-left: 80%;
+    padding:15px;
+}
+.copyright{
+    text-align: center;
+}
