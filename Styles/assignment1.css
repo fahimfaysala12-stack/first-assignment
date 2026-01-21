@@ -24,6 +24,9 @@
    border:none;
    
 }
+.btn:hover{
+    cursor:pointer;
+}
 .play-btn{
    
     color:#ffffff;
@@ -33,7 +36,10 @@
     padding:17px;
     10;
 }
-
+.play-btn:hover{
+    cursor: pointer;
+    background:blue;
+}
 
 .color-white{
     color:white;
