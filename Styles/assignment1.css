@@ -22,15 +22,19 @@
    color:#ffffff;
    border-radius:4px;
    border:none;
-   padding:12px 16px;
+   
 }
 .play-btn{
-    padding:12px 16px;
+   
     color:#ffffff;
     margin-left:16px;
     background-image:url(../assets/hero-bg.png);
     background-attachment: fixed;
+    padding:17px;
+    10;
 }
+
+
 .color-white{
     color:white;
     display:block;
@@ -49,10 +53,8 @@
     color:green;
     
 }
-.container{
-    width:85%;
-    max-width:1360px;
-}
+
+
 .logo img{
     height: 60px;
     width: 139px;
@@ -66,9 +68,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding:16px 120px;
-    margin:auto;
-    width:85%;
-    max-width:1360px;
+    width:100%;
+    max-width:1600px;
 }
 nav .menu {
     display:flex;
@@ -79,6 +80,9 @@ nav .menu a{
     font-size:16px;
     color:#000000;
     text-decoration: none;
+}
+nav .btn{
+    padding:12px 16px;
 }
 .first-line{
     
@@ -117,9 +121,10 @@ nav .menu a{
     
 }
 .contents {
-    width:85%;
     max-width:1360px;
-    padding:115px 120px 180px 120px;
+    padding:70px 120px 134px 120px;
+    
+
     
 }
 .contents h1{
@@ -127,6 +132,7 @@ nav .menu a{
     font-style:Bold;
     font-weight: 700;
     font-size:72px;
+    padding:auto 295px;
 }
 
 
@@ -134,6 +140,13 @@ nav .menu a{
     display:flex;
    justify-content: center;
    align-items: center;
+   
+}
+.banner-buttons .btn{
+    padding:17px;
+    display:flex;
+    align-items: center;
+    gap:10px;
 }
 .first-paragraph{
     color:white;
@@ -202,16 +215,28 @@ nav .menu a{
     height:600px;
 }
 .solution{
-    margin:102px 0px 102px 60px;
+    padding:102px 0px 102px 60px;
     display:flex;
-    gap:40px;
+    gap:16px;
     flex-direction:column;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items:baseline;
 }
 .solution p{
+    text-align:left;
     font-size:16px;
     color:#627382;
+    margin-bottom:24px;
+}
+.solution h6{
+    
+    text-align: left;
+    color:#30B868;
+    font-size:16px;
+    margin:0;
+}
+.solution h1{
+    margin-top:0px;
 }
 .solution img{
     
@@ -222,11 +247,10 @@ nav .menu a{
     
 }
 .solution ul{
+   
     list-style:none;
     
-    
-    
-    margin-top:40px;
+
     
 }
 .solution ul li{
@@ -252,9 +276,14 @@ nav .menu a{
     align-items: center;
     
 }
-.challenge button{
+.challenge .btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
     margin-top:24px;
     margin-bottom:16px;
+    padding:12px 16px;
 }
 .challenge h2{ 
     font-size:40px;
@@ -278,30 +307,69 @@ nav .menu a{
         color:#627382
 
     }
-    .footer-contents{
+    footer{
         padding:120px 120px 30px 120px;
-        background-color:#001931;
-        color:#ffffff;
+        background-color: #001931;
+        color:#FFFFFF;
+        width:100%;
+
     }
-    .footer img{
+    .footer-contents{
+        max-width:1360px;
+        max-height:64px;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding:8px 20px;
+    }
+    .left{
+        display: flex;
+        align-items: flex-start;
+    }
+    .left img{
+        height:60px;
         width:139px;
-        height: 60px;
+        display:block;
     }
-.footer-main{
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.social{
-    display: flex;
-    gap:16px;
-    margin-right: 10%;
-    
-}
-#text-top{
-    margin-left: 80%;
-    padding:15px;
-}
-.copyright{
-    text-align: center;
-}
+    .right{
+        display:flex;
+        align-items: flex-start;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:8px;
+    }
+    .social-title{
+        color:#FFFFFF
+        font-size : 20px;
+        font-weight : 500;
+    }
+    .social-icons{
+        display:flex;
+        align-items: center;
+        gap:8px;
+    }
+    .icon{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height:20px;
+        width:20px;
+        border-radius: 50%;
+        
+        background-color: #FFFFFF;
+        text-decoration: none;
+    }
+    footer hr{
+       max-width:1360px;
+        margin: 80px 120px 30px 120px;
+        border:1px solid #E5E7EB33;
+        
+    }
+    .copyright{
+        text-align: center;
+        color:#FFFFFF;
+    }
